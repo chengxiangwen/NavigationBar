@@ -1,0 +1,18 @@
+<!--三列列表-->
+<template name="diallellist">
+  <view class="indexbom">
+    <view wx:for="{{showData}}" wx:key="" data-buyType="3">
+      <view class="indexbomli" >
+          <image class="item_images" src="{{item.image}}"></image>
+          <view class="item_name_container">
+            <text class="indextext">{{item.name}}</text>
+          </view>
+        <view class="item_price_container">
+          <view>
+            <text class="item_appprice">¥ {{item.appPrice}} </text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

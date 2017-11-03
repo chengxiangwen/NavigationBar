@@ -1,0 +1,28 @@
+/* pages/home/home.wxss */
+@import "/pages/common/diallellist.wxss";
+.swiper_box {
+  width: 100%;
+  height: 350rpx;
+}
+
+.slide-image{
+  width: 100%;
+  height: 350rpx
+}
+
+.nav-header {
+  font-size: 28.12rpx;
+  display: -webkit-box;
+  text-align: center;
+  background: #fff;
+  padding: 0 10rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+}
+.nav-cell {
+  -webkit-box-flex: 1;
+}
+.nav-cell.active {
+  color: #ffbfbf;
+  border-bottom: #ffbfbf 3rpx solid;
+}

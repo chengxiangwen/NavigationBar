@@ -1,0 +1,5 @@
+<template name="nav">
+  <view class="nav-header">
+  <view wx:for="{{category}}" wx:key="" class="nav-cell {{item.alias==activeNav?'active':''}}" bindtap="changeList"     data-alias="{{item.alias}}">{{item.name}}</view>
+</view>
+</template>

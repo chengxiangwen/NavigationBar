@@ -1,0 +1,74 @@
+/*三列列表样式*/
+.indexbom {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.indexbomli {
+  position: relative;
+  display: flex;
+  flex-flow: column nowrap;
+  align-content: center;
+  justify-content: center;
+  background-color: #fafafa;
+  border: 1rpx solid #cdcdcd;
+  border-radius: 5px;
+  width: 30%;
+  height: 330rpx;
+  margin: 1%;
+  float: left;
+  box-shadow: 5rpx 5rpx 5rpx #cdcdcd;
+}
+
+.indexbom-tit {
+  border-left: 3px solid #f38815;
+  width: 93%;
+  height: 30rpx;
+  margin: 20rpx auto;
+  font-size: 30rpx;
+  color: #424242;
+  line-height: 30rpx;
+  text-indent: 10px;
+}
+
+.indextext {
+  height: 44rpx;
+  margin-top: 20rpx;
+  font-size: 24rpx;
+  color: #000;
+}
+
+.item_price_container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 20rpx;
+  height: 60rpx;
+  background-color: #eee;
+  bottom: 0;
+}
+
+
+.item_appprice {
+  font-size: 26rpx;
+  color: #f00;
+}
+
+
+
+.item_name_container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+.item_images {
+  margin-top: 40rpx;
+  margin-left: 40rpx;
+  width: 160rpx;
+  height: 160rpx;
+}
+
+
